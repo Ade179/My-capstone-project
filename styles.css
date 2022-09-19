@@ -135,7 +135,7 @@ html {
   /* sec2 */
   .sec2 {
     background: rgba(0, 0, 0, 0.6) url(images/Grey-background.jpg);
-    height: 600px;
+    height: auto;
     background-size: cover;
     position: relative;
     isolation: isolate;
@@ -149,6 +149,7 @@ html {
     padding-bottom: 3%;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Lato', sans-serif;
   }
 
   .mainprogramme::after {
@@ -186,6 +187,29 @@ html {
     align-items: center;
     font-family: 'lato', sans-serif;
     font-size: 15px;
+  }
+
+  #joinbtn {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 5% 0;
+  }
+
+  .joinbtn {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #ec5242;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+  }
+
+  .joinbtn:hover {
+    border: 2px solid #fff;
   }
 
   .wholepage {
@@ -481,14 +505,14 @@ html {
 
   .timewarped {
     text-align: center;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: grey;
   }
 
   #timewarp {
     text-align: center;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: grey;
   }
@@ -502,7 +526,7 @@ html {
     justify-content: center;
     padding-top: 45%;
     gap: 15px;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   .footsie {
@@ -516,7 +540,7 @@ html {
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-top: 3%;
     font-size: 20px;
     gap: 22px;
@@ -544,10 +568,12 @@ html {
   border: 1px solid rgb(23, 20, 20);
   font-size: 20px;
   padding: 2%;
+  font-family: 'Lato', sans-serif;
 }
 
 .footertext {
   width: 250px;
+  font-family: 'Lato', sans-serif;
 }
 
 @media (min-width: 769px) {
@@ -570,6 +596,10 @@ html {
     border: 7px solid #353935;
     padding: 1%;
     font-size: 30px;
+  }
+
+  #headertopic {
+    font-family: 'Lato', sans-serif;
   }
 
   ul {
@@ -595,6 +625,7 @@ html {
     list-style: none;
     text-decoration: none;
     color: #353935;
+    font-family: 'Lato', sans-serif;
   }
 
   .combine {
@@ -607,6 +638,16 @@ html {
     display: flex;
     text-align: left;
     font-size: 20px;
+  }
+
+  #all {
+    font-family: 'Lato', sans-serif;
+  }
+
+  #all:hover {
+    border: 4px solid #272a31;
+    padding: 2%;
+    transition: ease-in-out;
   }
 
   .about:hover {
@@ -725,6 +766,7 @@ html {
     padding-bottom: 3%;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Lato', sans-serif;
   }
 
   .mainprogramme::after {
@@ -756,16 +798,18 @@ html {
 
   .programmecontainer {
     display: flex;
-    margin-top: 10px;
     gap: 5px;
+    margin: 10px 70px 0 70px;
   }
 
   .cont-text {
     color: #ec5242;
+    font-family: 'Lato', sans-serif;
   }
 
   .cont-description {
     color: #fff;
+    font-family: 'Lato', sans-serif;
   }
 
   .wholepage {
@@ -775,6 +819,7 @@ html {
     justify-content: center;
     padding-top: 4%;
     text-decoration: underline;
+    font-family: 'Lato', sans-serif;
   }
 
   #wholepage {
@@ -1039,14 +1084,25 @@ html {
 
   .imgtxt {
     text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #img1txt {
+    font-family: 'Lato', sans-serif;
   }
 
   .img1txt {
     text-align: center;
+    font-family: 'Lato', sans-serif;
   }
 
   .imgtxt2 {
     text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #imgtxt2 {
+    font-family: 'Lato', sans-serif;
   }
 
   .aboutimg1 {
@@ -1087,6 +1143,10 @@ html {
     padding-bottom: 17px;
   }
 
+  #every {
+    font-family: 'Lato', sans-serif;
+  }
+
   .bou-footer {
     display: flex;
     justify-content: space-around;
@@ -1106,6 +1166,10 @@ html {
   }
 
   .btn {
+    display: none;
+  }
+
+  #joinbtn {
     display: none;
   }
 }
