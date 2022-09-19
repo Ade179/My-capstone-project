@@ -12,7 +12,7 @@
 
 
 
-### Go live :
+### Go live :https://ade179.github.io/My-capstone-project/
 ### DEMO : 
 
 ## Authors
