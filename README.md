@@ -12,6 +12,7 @@
 
 
 
+ Desktopversion
 ### Go live :![](https://img.shields.io/badge/Microverse-blueviolet)
 
 #  My Capstone Project
@@ -56,6 +57,9 @@ _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/
 
 
 ### DEMO : 
+### Go live :https://ade179.github.io/My-capstone-project/
+### DEMO : https://www.loom.com/share/92e34b4efecf4f419b52b7e604c2b060
+
 
 ## Authors
 
